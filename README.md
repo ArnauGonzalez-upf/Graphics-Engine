@@ -4,8 +4,6 @@ La aplicación permite los siguientes modos de render seleccionables en el ImGui
 	- DEFERRED
 	- FORWARD
 
-LOS AÑADIDOS DE ESTA PRÁCTICA SE HAN PENSADO PARA DEFERRED.
-
 La aplicación permite dos modos de iluminación en FORWARD: mutipass (MULTI) y singlepass (SINGLE). En DEFERRED no hay más opciones en este sentido.
 
 Por otra parte, respecto a las ecuaciones de la luz hay tres opciones, donde las intensidades que se utilizan para la escena se han indicado en base a usar la opción DIRECT_BURLEY, donde si se ua DIRECT_LAMB el cambio es mínimo pero al usar PHONG la imagen se quema mucho, con lo que se tendrían que cambiar las intensidades de las luces. Las opciones son:
